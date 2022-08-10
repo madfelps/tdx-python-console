@@ -1,0 +1,135 @@
+devices:
+    common: []
+    debug: []
+    release: []
+dockercomposefile:
+    common: ''
+    debug: ''
+    release: ''
+extraparms:
+    common: {}
+    debug: {}
+    release: {}
+id: 9355fc61-8bc8-422b-b880-b10561438cca
+images:
+    debug: sha256:8516fd4363138497454b33e232c8fceedc35ee963135aea10ca44c40eab87bde
+    release: ''
+imagetags:
+    debug: python-console_arm64v8-debian-python3_bullseye_debug_9355fc61-8bc8-422b-b880-b10561438cca
+    release: python-console_arm64v8-debian-python3_bullseye_release_9355fc61-8bc8-422b-b880-b10561438cca
+modificationdate: '2022-08-10T12:34:02.609233'
+networks:
+    common: []
+    debug: []
+    release: []
+otapackagename: ''
+otapackageversion: 1.0.0
+platformid: arm64v8-debian-python3_bullseye
+ports:
+    common: {}
+    debug: {}
+    release: {}
+privatekey: '-----BEGIN RSA PRIVATE KEY-----
+
+    MIIEpAIBAAKCAQEA4LkfQMb0Ds2WJVLRgqVzFqdUBJcmiUzn1WHrvgCqgrk1gWn8
+
+    QKTdJjDvkGK8FELeiSMDo63jXPnOEpuDW9uXt2sjD3JY0sVOW8a7tn4iQsPUp0ZQ
+
+    lD4wscuLCvm6FGWGMFEODGl8k59vEEeLWM7yIYFkCyTsYmx2s9iTPrpa23oUmPNr
+
+    Y0B2TjzGQ6ghU4XCIG/8b5t/+/4cQ9YWMghqZXVAiAv2BzwpoL7SBDoKXQjhVmoA
+
+    uCqlTYrWAozY81CaX58RK/tZkR3FWRFdD3OKO0bmmoVhObLjpna/WbGcWxipkr4w
+
+    +fwd6Zw73BKoBRqwjaiMAQ6wbGHUfD0c+8JQjQIDAQABAoIBACK29kj/cvxGbgdd
+
+    /9d6z4iUWLpMzzsukjG4ar5zQ+Pl0IopYTprPW6E6L0ZQ4ytt8rfidRjLFhUjqz5
+
+    MRWjmpBPEJ92PppwuGYdESpj2c8OiW89wXzlDoiotNYBNemotU4Jd24bbY8wdevB
+
+    4ZjafzUF0/qUvZ+Gud+WeUibaSW2MAN18teLsWSvecMxNRW+Aq4Th/R91W0xw3Xw
+
+    T3ZsrJp31AX7X1wRQoOpj3tYfpAjMtE/dkcaykY0IuxRB8iMz+oMFj8eCLzsrjAy
+
+    fnAyVl4rUEcgrzS7alImWRvNLsX9B/sCXrwEKwDvmMWH9iuTHQv+WIguxqycgk0H
+
+    4bFAfNECgYEA+o+e1mMwgDy6QHFk64dqTZBd6BtNJNeR9s2AJSPnyaKPtnbMQp9v
+
+    2IJpjaZwX038BBASEHg0BHQyzDRCEeZPPJuXSt4UePnNmA7veno8hcailfdSkDBb
+
+    9LBbQVxhRU3mRvOKfN7xsmEJ4ugQXN4if5evL+2Wu0JkkcLvGfUi8isCgYEA5Znr
+
+    VQnPNEN0MwRBLiMDrOYW+/PecLX94X/zSf6MK6f7HxxJ+9cK9kQo4rzdi7AHoZZk
+
+    seEPx1xESVBd5D3x4RTybOlbGPSiiDKMUzD1tqllvrk5VP702JGNMuKNq6FhXkWH
+
+    AOqEuuevIX8qwmoy8PVICa3vinh/xCbKWi9URCcCgYEA4zta1p0QAEySsRzlZIDj
+
+    lEJIF9aiqLXjx0rpW0Vr0T5fTSAB8K29dkIXTgJSyOvlkR2t9Ee/DQcAhpciEC+p
+
+    TpLgq2IqeOg7Xxq0boPq3XueOZkZxHBHBOrnZ6hLAto568C0qLhbw+UjXSgOptpB
+
+    uSssErBK0brNkC+UPhtFvQ8CgYEArFakNehvByO6jLCc3CycDaOHjQa36JIyRpjr
+
+    3JacUAh+jhOF1OrM55yxs79f7AHtOHTSkFIGrfWrq/wO/cshS3mVnfpqzoiRlvma
+
+    KreNN9Ze8JHHXu0gi451FcTH4hP4KfK2KxHdHw3YfqQdTGC6a/MwZ1OPgbiA7pLP
+
+    QHJWJfECgYBwwvEhbMRR0Flb5LesMo/2iE0j1zSJ8vdIZt9MZ4VvKE/6rZvGugEn
+
+    yYdb6BaELxyBaL0mXKfN+gyk1+qcST4p+0qP/3KGmFhAd45bXaTnlY6FFUpwYtvx
+
+    zYREbFQOlknt+3n/80hoO6Z6kgXlWo90EJ8/p9egxy++Q584AJXl9A==
+
+    -----END RSA PRIVATE KEY-----
+
+    '
+props:
+    common:
+        appargs: ''
+        appname: python-console
+        arg: ''
+        buildcommands: ''
+        buildfiles: ''
+        command: ''
+        devpackages: ''
+        env: ''
+        expose: ''
+        extrapackages: ''
+        language: python
+        main: main.py
+        preinstallcommands: ''
+        runtime: python3
+        sdkpostinstallcommands: ''
+        sdkpreinstallcommands: ''
+        targetcommands: ''
+        targetfiles: ''
+    debug:
+        arg: 'ARG SSHUSERNAME=#%application.username%#
+
+            '
+    release: {}
+publickey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDguR9AxvQOzZYlUtGCpXMWp1QElyaJTOfVYeu+AKqCuTWBafxApN0mMO+QYrwUQt6JIwOjreNc+c4Sm4Nb25e3ayMPcljSxU5bxru2fiJCw9SnRlCUPjCxy4sK+boUZYYwUQ4MaXyTn28QR4tYzvIhgWQLJOxibHaz2JM+ulrbehSY82tjQHZOPMZDqCFThcIgb/xvm3/7/hxD1hYyCGpldUCIC/YHPCmgvtIEOgpdCOFWagC4KqVNitYCjNjzUJpfnxEr+1mRHcVZEV0Pc4o7RuaahWE5suOmdr9ZsZxbGKmSvjD5/B3pnDvcEqgFGrCNqIwBDrBsYdR8PRz7wlCN
+sdkimages:
+    debug: ''
+    release: ''
+sdkimagetags:
+    debug: ''
+    release: ''
+sdksshaddress:
+    debug: null
+    release: null
+shutdownscript:
+    common: ''
+    debug: ''
+    release: ''
+startupscript:
+    common: ''
+    debug: ''
+    release: ''
+username: torizon
+volumes:
+    common: {}
+    debug:
+        /home/torizon/python-console: /python-console,rw
+    release: {}
